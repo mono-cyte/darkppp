@@ -1,3 +1,3 @@
 # Dark+++
 
-My eyes have had enough of all kinds of dazzling themes; that's why I have to create one myself.
+Dark+++ is an vscode extension that adds a dark theme to the default theme.
