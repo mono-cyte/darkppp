@@ -58,7 +58,14 @@
         "textLink.foreground": "#00ff8889",
         "textLink.activeForeground": "#00ff88bb",
 
-        "progressBar.background": "#00ff8889"
+        "progressBar.background": "#00ff8889",
+
+        "editorBracketHighlight.foreground1": "#cf9b00",
+        "editorBracketHighlight.foreground2": "#63c14c",
+        "editorBracketHighlight.foreground3": "#4ea6f3",
+        "editorBracketHighlight.foreground4": "#19c9b1",
+        "editorBracketHighlight.foreground5": "#8b9dff",
+        "editorBracketHighlight.foreground6": "#e15454"
     },
     "tokenColors": [
         {
