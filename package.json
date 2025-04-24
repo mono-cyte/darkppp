@@ -1,0 +1,27 @@
+{
+	"name": "darkppp",
+	"displayName": "Dark+++",
+	"description": "Dark enough",
+	"publisher": "mono-cyte",
+	"version": "0.0.3",
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mono-cyte/darkppp"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark+++",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dark+++-color-theme.json"
+			}
+		]
+	}
+}
