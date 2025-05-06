@@ -67,6 +67,7 @@
 		"editorBracketHighlight.foreground5": "#8b9dff",
 		"editorBracketHighlight.foreground6": "#ff000088",
 
+		// Add background color to existing "fontStyle: underline" snippets for better clarity
 		"editorWarning.background": "#ffd00033",
 		"editorError.background": "#ff000055"
 	},
