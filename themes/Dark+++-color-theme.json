@@ -65,9 +65,15 @@
 		"editorBracketHighlight.foreground3": "#4ea6f3",
 		"editorBracketHighlight.foreground4": "#19c9b1",
 		"editorBracketHighlight.foreground5": "#8b9dff",
-		"editorBracketHighlight.foreground6": "#e15454"
+		"editorBracketHighlight.foreground6": "#ff000088",
+
+		"editorWarning.background": "#ffd00033",
+		"editorError.background": "#ff000055"
 	},
 
+	// 1. More specific scope has higher priority
+	// 2. Higher settings have higher priority
+	// 3. 1 has higher priority than 2
 	"tokenColors": [
 		// Overall highlight support
 		{
@@ -130,8 +136,19 @@
 			}
 		},
 		{
+			"name": "Overall Function Call",
+			"scope": [
+				"support.function",
+				"meta.function-call entity.name.function"
+			],
+			"settings": {
+				"foreground": "#c6be9ccb",
+				"fontStyle": "underline"
+			}
+		},
+		{
 			"name": "Overall Function Declaration",
-			"scope": ["entity.name.function", "meta.function - meta.block"],
+			"scope": ["entity.name.function", "meta.function.definition"],
 			"settings": {
 				"foreground": "#a9a07d",
 				"fontStyle": "bold"
@@ -145,15 +162,6 @@
 				"fontStyle": ""
 			}
 		},
-		{
-			"name": "Overall Function Call",
-			"scope": ["support.function"],
-			"settings": {
-				"foreground": "#aea689",
-				"fontStyle": "underline"
-			}
-		},
-
 		{
 			"name": "Overall Keywords",
 			"scope": "keyword",
