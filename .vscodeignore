@@ -1,2 +1,4 @@
 scope
+.vscode
 .gitignore
+*.vsix
