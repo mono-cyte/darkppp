@@ -65,7 +65,7 @@
 		"editorBracketHighlight.foreground3": "#4ea6f3",
 		"editorBracketHighlight.foreground4": "#19c9b1",
 		"editorBracketHighlight.foreground5": "#8b9dff",
-		"editorBracketHighlight.foreground6": "#ff000088",
+		"editorBracketHighlight.foreground6": "#ff834acb",
 
 		// Add background color to existing "fontStyle: underline" snippets for better clarity
 		"editorWarning.background": "#ffd00033",
@@ -105,7 +105,7 @@
 				"string.comment"
 			],
 			"settings": {
-				"foreground": "#707070"
+				"foreground": "#8f8f8ff1"
 			}
 		},
 		{
@@ -203,14 +203,17 @@
 		},
 		{
 			"name": "Constants Variables",
-			"scope": ["variable.other.constant"],
+			"scope": [
+				"variable.other.constant",
+				"storage.modifier.specifier.const"
+			],
 			"settings": {
-				"foreground": "#aca7db",
+				"foreground": "#a69fe1",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "support.constant",
+			"scope": ["support.constant"],
 			"settings": {
 				"foreground": "#79c0ff"
 			}
@@ -480,6 +483,7 @@
 			}
 		},
 		// Language specific highlight support
+		// JSON
 		{
 			"name": "JSON property names",
 			"scope": "support.type.property-name.json",
@@ -487,11 +491,21 @@
 				"foreground": "#8cc5e4"
 			}
 		},
+		// CPP
 		{
 			"name": "C/CPP modifier",
 			"scope": ["storage.modifier.c", "storage.modifier.cpp"],
 			"settings": {
 				"foreground": "#aca7db",
+				"fontStyle": "bold"
+			}
+		},
+		// Doxygen
+		{
+			"name": "Doxygen",
+			"scope": ["storage.type.class.doxygen"],
+			"settings": {
+				"foreground": "#c277a9d3",
 				"fontStyle": "bold"
 			}
 		}
