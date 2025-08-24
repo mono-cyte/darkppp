@@ -3,7 +3,7 @@
 	"displayName": "Dark+++",
 	"description": "Dark enough",
 	"publisher": "mono-cyte",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"engines": {
 		"vscode": "^1.96.0"
 	},
